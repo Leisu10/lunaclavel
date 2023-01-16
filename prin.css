@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin: 0; 
+	padding: 0;}
+
+
+.titulo h2 {
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Satisfy', cursive;
+	line-height: 100px; 
+	font-size: 6vw;
+	text-align: center;
+	color: palevioletred;
+}
+
+#music {
+	background: linear-gradient(-45deg, blue, deeppink);
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index: 1;
+}
+	
+#map iframe{width: 90%;
+	height: 80%;
+	border-radius: 50px;
+	margin: 5px auto;
+	position: absolute;
+	left: 15px;
+	top: 50px;
+}
+
+.wrapper {
+			width: 80%; 
+			height: 100vh; 
+			margin: 0 auto;
+			overflow: hidden;
+			}
+			
+		.wrapper h1 {
+			font-family: 'Satisfy', cursive;
+			line-height: 100px; 
+			font-size: 4vw;
+			text-align: center
+}
+		
+		.slider {width: 100%}
+		
+		.slider li {width: 100%; float: left}
+		
+		.slider img {width: 100%; height: auto;}
+		
+		.slider ul {
+			list-style-type: none; 
+			width: 400%; 
+			display: flex; 
+			animation: slider 5s infinite alternate;}
+		
+		@keyframes slider {
+			
+			0%       {margin-left: 0;}
+			20%      {margin-left: 0;}
+			
+			30%      {margin-left: -100%;}
+			50%      {margin-left: -100%;}
+			
+			60%      {margin-left: -200%;}
+			80%      {margin-left: -200%;}
+			
+			90%      {margin-left: -300%;}
+			100%     {margin-left: -300%;}
+		}
+	
+#fixed{
+	width:200px;
+	height:100px;
+	background-color:#FFE926;
+    position:fixed;
+	bottom: 0;
+    left: 0;
+	border-radius:20px;
+	border:3px black dashed;
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	box-shadow:10px 20px 15px black;
+}
+
+#formu iframe{width: 90%;
+	height: 80%;
+	border-radius: 50px;
+	margin: 5px auto;
+	position: absolute;
+	left: 15px;
+	top: 120px;
+}
+
+#padre {
+	width: 60%;
+	height: 500px;
+	position: relative;
+	top: 0px;
+	left:50px;
+}
+
+#hijo1 {
+	width: 100px;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: 75px;
+	left:0px;
+}
+
+#hijo2 {
+	background-color: red;
+	width: 200px;
+	position: absolute;
+	/*top: 0px;
+	left:0px;*/
+	top: 20px;
+	left:20px;
+}
+
